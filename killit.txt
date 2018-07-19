@@ -1,0 +1,14 @@
+previous=`wc -l paragraph.txt`
+while true
+current=`wc -l paragraph.txt`
+do
+if [[ "$current" == "$previous" ]]
+then
+  echo "match"
+else
+  echo "mo match"
+  commandID="$(ps aux | grep R | grep -v grep | awk '/[b]ash/{print $2}')"
+  kill $commandID
+  break
+fi
+done

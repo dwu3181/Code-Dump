@@ -6,8 +6,8 @@ find /Users/davidwu/iOSapps/ | while read line; do
     filepath=`echo $line`
     namekey=`codesign -d --entitlements :- "/Users/davidwu/temp1/Payload/"*.app 2>&1 | grep key`
     developer=`awk '/artistName/{getline; print}' /Users/davidwu/temp1/iTunesMetadata.plist`
-    echo $nameapp
-    echo $filepath
+    echo $nameapp,
+    echo $filepath,
     echo "$namekey"
     echo $developer
     echo ""

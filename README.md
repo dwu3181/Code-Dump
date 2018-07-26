@@ -1,1 +1,7 @@
-Welcome to my hub of (very incomplete) code. Try not to get lost, I probably am!
+# Code-Dump
+# codedump2
+# codedump2
+# codedump3
+# codedump4
+# codedump4
+# codedump4

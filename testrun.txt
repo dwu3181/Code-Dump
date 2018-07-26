@@ -1,0 +1,6 @@
+while true
+do
+echo "line"
+echo "linee"
+echo "lineee"
+done

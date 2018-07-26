@@ -1,0 +1,14 @@
+find /Users/davidwu/iOSapps/ | while read line; do
+    rm -r /Users/davidwu/temp1
+    mkdir temp1
+    unzip "$line" -d /Users/davidwu/temp1 > /dev/null
+    nameapp=`awk '/DisplayName/{getline; print}' /Users/davidwu/temp1/iTunesMetadata.plist`
+    filepath=`echo $line`
+    namekey=`codesign -d --entitlements :- "/Users/davidwu/temp1/Payload/"*.app 2>&1 | grep key`
+    developer=`awk '/artistName/{getline; print}' /Users/davidwu/temp1/iTunesMetadata.plist`
+    echo $nameapp
+    echo $filepath
+    echo "$namekey"
+    echo $developer
+    echo ""
+done

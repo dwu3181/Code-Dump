@@ -4,3 +4,5 @@ echo "line"
 echo "linee"
 echo "lineee"
 done
+# this while loop can never end itself (thus the lines will be repeated infinitely) because the "true" condition will
+# always be met. this will only stop when the `paragraph.txt` file is changed.

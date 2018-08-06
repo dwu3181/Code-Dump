@@ -1,23 +1,31 @@
 # this script requires multiple terminals. 3 is the minimum required for it to work.
 
 previous=`wc -l paragraph.txt`
-# `previous` is the "default" variable, the pre-existing one. the `wc` command is for word count, which counts the letters in the text file `paragraph.txt` with the -l flag
+# `previous` is the "default" variable, the pre-existing one. the `wc` command is for word count,
+# which counts the letters in the text file `paragraph.txt` with the -l flag.
 while true
-# this sets up a while loop, which will allow the script to run infinitely until a change is made
+# this sets up a while loop, which will allow the script to run infinitely.
 current=`wc -l paragraph.txt`
-# `current` is the variable that can change because it's within the while loop. 
+# `current` is the variable that can change because it's within the while loop.
+# if something is changed to `paragraph.txt`, the variable `current` will change.
 do
 if [[ "$current" == "$previous" ]]
-# the double brackets allow the `==` to be used (double brackets are an extension of single brackets in bash and have further functionality)
+# the double brackets allow the `==` to be used (double brackets are an extension of single brackets in bash
+# and have further functionality).
 then
   echo "match"
 else
-# the `else` is what allows the script to do something alternate when the original text file, `paragraph.txt`, changes
+# the `else` is what allows the script to do something alternate when the original text file, `paragraph.txt`, changes.
 echo "mo match"
   commandID="$(ps aux | grep R | grep -v grep | awk '/[b]ash/{print $2}')"
-  # `ps aux` yields the list of ongoing processes. after repeated testing, `R` was found to stand for running, and using `grep R` singles out the one line that contains the process belonging to the running script that repeats the line. `grep -v grep` eliminates then eliminates the lines containing the term "grep," finally leaving a single line. finally, the `awk` command grabs the second column in the line (the `print $2` part), which is the ID of the process. finally, the variable `commandID` is set equal to that number.
+  # `ps aux` yields the list of ongoing processes. after repeated testing, `R` was found to stand for running,
+  # and using `grep R` singles out the one line that contains the process belonging to the running script that repeats the line.
+  # `grep -v grep` eliminates then eliminates the lines containing the term "grep," finally leaving a single line.
+  # the `awk` command grabs the second column in the line (the `print $2` part), which is the ID of the process.
+  # finally, the variable `commandID` is set equal to that number.
   kill $commandID
   break
-  # the above two lines kill the running script, ending it. the lines stop repeating themselves and this specific script also ends with the `break` command.
+  # the above two lines kill the running script, ending it. the lines stop repeating themselves
+  # and this specific script also ends with the `break` command.
 fi
 done

@@ -17,12 +17,13 @@ then
 else
 # the `else` is what allows the script to do something alternate when the original text file, `paragraph.txt`, changes.
 echo "mo match"
-  commandID="$(ps aux | grep R | grep -v grep | awk '/[b]ash/{print $2}')"
+  commandID="$(ps aux | grep R | grep -v grep | awk '/bash/{print $2}')"
   # `ps aux` yields the list of ongoing processes. after repeated testing, `R` was found to stand for running,
   # and using `grep R` singles out the one line that contains the process belonging to the running script that repeats the line.
   # `grep -v grep` eliminates then eliminates the lines containing the term "grep," finally leaving a single line.
-  # the `awk` command grabs the second column in the line (the `print $2` part), which is the ID of the process.
-  # finally, the variable `commandID` is set equal to that number.
+  # the `awk` command grabs the second column in the line (the `print $2` part), which is the ID of the process. 
+  # `bash` is included as the "phrase" within the `awk` command because the word "bash" is still located in that line. finally,
+  # the variable `commandID` is set equal to that number.
   kill $commandID
   break
   # the above two lines kill the running script, ending it. the lines stop repeating themselves

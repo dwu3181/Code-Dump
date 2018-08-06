@@ -26,9 +26,9 @@ find /Users/davidwu/iOSapps/ | while read line; do
     # each variable is echoed directly with the exception of `namekey`, which can consist of multiple lines. surrounding
     # `namekey` in quotes allows each of those lines to be printed. for example:
     #	<key>keychain-access-groups</key>
-	#	<key>com.apple.security.application-groups</key>
-	#	<key>application-identifier</key>
-	#	<key>aps-environment</key>
+    #	<key>com.apple.security.application-groups</key>
+    #	<key>application-identifier</key>
+    #	<key>aps-environment</key>
     # the results will be printed like this, lines separate. without the quotes, the separate lines would become a single line.
     # `echo ""` leaves a space between each result so they can be analyzed more easily.
 done

@@ -1,0 +1,4 @@
+1. create the file or directory in /Users/davidwu/Code-Dump
+2. use `git add [files]` to add them to github
+3. commit using `git command -m [description]`. this keeps track of changes.
+4. finally, push the commit and "publish" it to make the changes using `git push`.

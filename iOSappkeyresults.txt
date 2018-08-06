@@ -1,0 +1,298 @@
+
+/Users/davidwu/iOSapps/
+
+
+
+<string>Agent</string>
+/Users/davidwu/iOSapps//Agent 5.7.2.ipa
+		<key>keychain-access-groups</key>
+		<key>com.apple.developer.team-identifier</key>
+		<key>application-identifier</key>
+		<key>aps-environment</key>
+<string>AirWatch, LLC</string>
+
+<string>Amtel MDM</string>
+/Users/davidwu/iOSapps//Amtel MDM 3.5.0.ipa
+		<key>keychain-access-groups</key>
+		<key>com.apple.developer.team-identifier</key>
+		<key>application-identifier</key>
+		<key>aps-environment</key>
+<string>Amtel</string>
+
+<string>Aranda MDM Agent</string>
+/Users/davidwu/iOSapps//Aranda MDM 9.9.0.ipa
+		<key>aps-environment</key>
+		<key>com.apple.developer.team-identifier</key>
+		<key>application-identifier</key>
+<string>Aranda Software Corp</string>
+
+<string>AsdeqDocs with MDM</string>
+/Users/davidwu/iOSapps//AsdeqDocs with MDM 6.0.1.ipa
+		<key>keychain-access-groups</key>
+		<key>com.apple.developer.team-identifier</key>
+		<key>com.apple.security.application-groups</key>
+		<key>application-identifier</key>
+<string>Asdeq Labs</string>
+
+<string>CA MDM</string>
+/Users/davidwu/iOSapps//CA MDM 6.60.8020.ipa
+		<key>keychain-access-groups</key>
+		<key>application-identifier</key>
+		<key>aps-environment</key>
+<string>CA, Inc</string>
+
+<string>CLOMO MDM</string>
+/Users/davidwu/iOSapps//CLOMO MDM 3.0.3.ipa
+		<key>keychain-access-groups</key>
+		<key>com.apple.developer.team-identifier</key>
+		<key>application-identifier</key>
+		<key>aps-environment</key>
+<string>i3Systems, Inc.</string>
+
+<string>Comp Portal</string>
+/Users/davidwu/iOSapps//Comp Portal 3.2.0.ipa
+		<key>keychain-access-groups</key>
+		<key>com.apple.developer.team-identifier</key>
+		<key>application-identifier</key>
+		<key>aps-environment</key>
+<string>Microsoft Corporation</string>
+
+<string>Device Manager</string>
+/Users/davidwu/iOSapps//Device Manager 1.0.1.ipa
+		<key>keychain-access-groups</key>
+		<key>com.apple.developer.team-identifier</key>
+		<key>application-identifier</key>
+		<key>aps-environment</key>
+<string>Inkcadre Inc</string>
+
+<string>EPP MDM</string>
+/Users/davidwu/iOSapps//EPP MDM 1.2.ipa
+		<key>keychain-access-groups</key>
+		<key>com.apple.developer.team-identifier</key>
+		<key>application-identifier</key>
+<string>CoSoSys</string>
+
+<string>eScan MDM</string>
+/Users/davidwu/iOSapps//eScan MDM 2.0.0.ipa
+		<key>aps-environment</key>
+		<key>com.apple.developer.team-identifier</key>
+		<key>com.apple.external-accessory.wireless-configuration</key>
+		<key>application-identifier</key>
+<string>MicroWorld Technologies Inc</string>
+
+<string>Gmail</string>
+/Users/davidwu/iOSapps//Gmail 5.0.180603.ipa
+		<key>keychain-access-groups</key>
+		<key>com.apple.security.application-groups</key>
+		<key>application-identifier</key>
+		<key>aps-environment</key>
+<string>Google, Inc.</string>
+
+<string>Google Maps</string>
+/Users/davidwu/iOSapps//Google Maps 4.53.0.ipa
+		<key>keychain-access-groups</key>
+		<key>com.apple.security.application-groups</key>
+		<key>com.apple.developer.associated-domains</key>
+		<key>application-identifier</key>
+		<key>aps-environment</key>
+<string>Google, Inc.</string>
+
+<string>Grafiche MDM</string>
+/Users/davidwu/iOSapps//Grafiche MDM 4.ipa
+		<key>keychain-access-groups</key>
+		<key>com.apple.developer.team-identifier</key>
+		<key>application-identifier</key>
+		<key>aps-environment</key>
+<string>PORTALIDEA SRL</string>
+
+<string>MCore MDM</string>
+/Users/davidwu/iOSapps//MCore MDM 9.0.100.ipa
+		<key>keychain-access-groups</key>
+		<key>com.apple.developer.team-identifier</key>
+		<key>application-identifier</key>
+		<key>aps-environment</key>
+<string>Sumitomo Electric System Solutions Co.,Ltd.</string>
+
+<string>MDM</string>
+/Users/davidwu/iOSapps//MDM 1.3.ipa
+		<key>keychain-access-groups</key>
+		<key>application-identifier</key>
+<string>Informatica Corporation</string>
+
+<string>MDM 2016</string>
+/Users/davidwu/iOSapps//MDM 2016 1.0.0.ipa
+		<key>keychain-access-groups</key>
+		<key>com.apple.developer.team-identifier</key>
+		<key>application-identifier</key>
+		<key>aps-environment</key>
+<string>EventMobi</string>
+
+<string>MDM 2017</string>
+/Users/davidwu/iOSapps//MDM 2017 1.0.0.ipa
+		<key>keychain-access-groups</key>
+		<key>com.apple.developer.team-identifier</key>
+		<key>application-identifier</key>
+		<key>aps-environment</key>
+<string>EventMobi</string>
+
+<string>MDM 2017</string>
+/Users/davidwu/iOSapps//MDM 2017 1.2.1.ipa
+		<key>keychain-access-groups</key>
+		<key>com.apple.developer.team-identifier</key>
+		<key>application-identifier</key>
+<string>P3 digital services GmbH</string>
+
+<string>MDM</string>
+/Users/davidwu/iOSapps//MDM 4.ipa
+		<key>aps-environment</key>
+		<key>com.apple.developer.team-identifier</key>
+		<key>application-identifier</key>
+<string>WedUp Ltd</string>
+
+<string>MDM</string>
+/Users/davidwu/iOSapps//MDM 8.0.100.ipa
+		<key>keychain-access-groups</key>
+		<key>com.apple.developer.team-identifier</key>
+		<key>application-identifier</key>
+		<key>aps-environment</key>
+<string>NTT Communications Corporation</string>
+
+<string>mDM</string>
+/Users/davidwu/iOSapps//mDM 9.021.1.ipa
+		<key>keychain-access-groups</key>
+		<key>com.apple.developer.team-identifier</key>
+		<key>com.apple.security.application-groups</key>
+		<key>application-identifier</key>
+<string>mBank S.A.</string>
+
+<string>MDM</string>
+/Users/davidwu/iOSapps//MDM 9.8.0.ipa
+		<key>keychain-access-groups</key>
+			<string>CJ9RFEYKNH.com.mobileiron.phoneatwork.keychain.group</string>
+		<key>com.apple.developer.team-identifier</key>
+		<key>com.apple.security.application-groups</key>
+		<key>application-identifier</key>
+		<key>aps-environment</key>
+<string>Deutsche Telekom AG - Multinational Corporations</string>
+
+<string>MDM Agent</string>
+/Users/davidwu/iOSapps//MDM Agent 2.2.ipa
+		<key>aps-environment</key>
+		<key>com.apple.developer.team-identifier</key>
+		<key>application-identifier</key>
+<string>N-able Technologies Inc.</string>
+
+<string>MDM Browser</string>
+/Users/davidwu/iOSapps//MDM Browser 2.4.3.ipa
+		<key>keychain-access-groups</key>
+		<key>com.apple.developer.team-identifier</key>
+		<key>application-identifier</key>
+<string>ConnectONE</string>
+
+<string>MDM T-Mobile</string>
+/Users/davidwu/iOSapps//MDM T-Mobile 2.5.13.ipa
+		<key>keychain-access-groups</key>
+		<key>com.apple.developer.team-identifier</key>
+		<key>application-identifier</key>
+		<key>aps-environment</key>
+<string>T-Mobile Polska S.A.</string>
+
+<string>ME MDM</string>
+/Users/davidwu/iOSapps//ME MDM 9.2.306.ipa
+		<key>application-identifier</key>
+		<key>com.apple.developer.team-identifier</key>
+		<key>com.apple.security.application-groups</key>
+<string>Zoho Corporation</string>
+
+<string>Meraki MDM</string>
+/Users/davidwu/iOSapps//Meraki MDM 2.5.1.ipa
+		<key>keychain-access-groups</key>
+		<key>com.apple.developer.team-identifier</key>
+		<key>application-identifier</key>
+		<key>aps-environment</key>
+<string>Meraki</string>
+
+<string>MobileIron</string>
+/Users/davidwu/iOSapps//MobileIron 10.0.1.ipa
+		<key>keychain-access-groups</key>
+			<string>MCYDZB3Q2J.com.mobileiron.phoneatwork.keychain.group</string>
+		<key>com.apple.developer.team-identifier</key>
+		<key>application-identifier</key>
+		<key>com.apple.developer.networking.HotspotHelper</key>
+		<key>com.apple.developer.networking.networkextension</key>
+		<key>aps-environment</key>
+		<key>com.apple.security.application-groups</key>
+<string>MobileIron</string>
+
+
+/Users/davidwu/iOSapps//Panda MDM Agent 1.7.ipa
+		<key>keychain-access-groups</key>
+		<key>com.apple.developer.team-identifier</key>
+		<key>application-identifier</key>
+<string>Panda Security, S.L.</string>
+
+<string>Parent MDM</string>
+/Users/davidwu/iOSapps//Parent MDM 1.0.0.ipa
+		<key>keychain-access-groups</key>
+		<key>com.apple.developer.team-identifier</key>
+		<key>application-identifier</key>
+		<key>aps-environment</key>
+<string>Avrio</string>
+
+<string>ProactivaNET MDM</string>
+/Users/davidwu/iOSapps//ProactivaNET MDM 1.0.11.ipa
+		<key>aps-environment</key>
+		<key>com.apple.developer.team-identifier</key>
+		<key>application-identifier</key>
+<string>Espiral MS</string>
+
+<string>Proget MDM</string>
+/Users/davidwu/iOSapps//Proget MDM 1.1.4.ipa
+		<key>aps-environment</key>
+		<key>com.apple.developer.team-identifier</key>
+		<key>application-identifier</key>
+<string>Proget Software</string>
+
+<string>SmartCloud MDM</string>
+/Users/davidwu/iOSapps//SmartCloud MDM 7.5.100.ipa
+		<key>keychain-access-groups</key>
+		<key>com.apple.developer.team-identifier</key>
+		<key>application-identifier</key>
+		<key>aps-environment</key>
+<string>NTT COMWARE CORPORATION</string>
+
+<string>Verizon MDM</string>
+/Users/davidwu/iOSapps//Verizon MDM 2.1.6.ipa
+		<key>com.apple.developer.networking.HotspotHelper</key>
+		<key>aps-environment</key>
+		<key>com.apple.developer.networking.vpn.api</key>
+		<key>com.apple.developer.team-identifier</key>
+		<key>application-identifier</key>
+<string>Verizon</string>
+
+<string>YouTube</string>
+/Users/davidwu/iOSapps//YouTube 13.24.9.ipa
+		<key>keychain-access-groups</key>
+		<key>com.apple.security.application-groups</key>
+		<key>com.apple.developer.associated-domains</key>
+		<key>application-identifier</key>
+		<key>aps-environment</key>
+<string>Google, Inc.</string>
+
+<string>あんしんMDM</string>
+/Users/davidwu/iOSapps//あんしんMDM 9.0.100.ipa
+
+<string>OPTiM Corporation</string>
+
+<string>あんしんMDMⅡ</string>
+/Users/davidwu/iOSapps//あんしんMDMⅡ 9.0.100.ipa
+
+<string>OPTiM Corporation</string>
+
+
+/Users/davidwu/iOSapps//台塑MDM 1.6.4.ipa
+		<key>aps-environment</key>
+		<key>com.apple.developer.team-identifier</key>
+		<key>application-identifier</key>
+<string>FORMOSA PLASTICS CORPORATION</string>
+

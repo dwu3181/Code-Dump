@@ -1,14 +1,34 @@
+# /Users/davidwu/iOSapps is the directory that contains all of the .ipa files.
 find /Users/davidwu/iOSapps/ | while read line; do
+# `line` is each individual line of the directory, so the while loop is "reading" the directory (thus each .ipa file).
     rm -r /Users/davidwu/temp1
+    # this removes the `temp1` directory in case it existed prior to running this script.
     mkdir temp1
+    # the `temp1` directory is created again
     unzip "$line" -d /Users/davidwu/temp1 > /dev/null
+    # each .ipa file is unzipped and the results that "fail" get redirected to `/dev/null`, a directory that act as a place to
+    # empty unnecessary files. it's essentially a black hole for files.
     nameapp=`awk '/DisplayName/{getline; print}' /Users/davidwu/temp1/iTunesMetadata.plist`
+    # `awk` is used to fetch the line containing the phrase `DisplayName`, then prints it using the `Pgetline; print}` section
+    # from the .plist file. this is the `nameapp` variable.
     filepath=`echo $line`
+    # the `filepath` variable is simply each individual `line` from `while read line` back in line 2.
     namekey=`codesign -d --entitlements :- "/Users/davidwu/temp1/Payload/"*.app 2>&1 | grep key`
+    #### the codesign command extracts each of the keys matching the entitlements. the `grep key` keeps only the lines containing
+    #### the word "key," which leaves only the keys in the format of `<key>[name of key]</key>`. this is set equal to the 
     developer=`awk '/artistName/{getline; print}' /Users/davidwu/temp1/iTunesMetadata.plist`
+    #### the `developer` variable is the same 
     echo $nameapp,
     echo $filepath,
     echo "$namekey"
     echo $developer
     echo ""
+    # each variable is echoed directly with the exception of `namekey`, which can consist of multiple lines. surrounding
+    # `namekey` in quotes allows each of those lines to be printed. for example:
+    #	<key>keychain-access-groups</key>
+	#	<key>com.apple.security.application-groups</key>
+	#	<key>application-identifier</key>
+	#	<key>aps-environment</key>
+    # the results will be printed like this, lines separate. without the quotes, the separate lines would become a single line.
+    # `echo ""` leaves a space between each result so they can be analyzed more easily.
 done
